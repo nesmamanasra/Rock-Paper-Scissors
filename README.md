@@ -10,6 +10,7 @@ https://anaal.github.io/Rock-Paper-Scissors/
 
 # Why i did this?
  In this project I will create a rock-paper-scissors game using html css js programming languages.
+ Within fundamental courses.
  
 # what is this page?
 - This page contains a game
