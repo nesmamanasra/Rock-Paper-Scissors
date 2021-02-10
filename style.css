@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  background-color: #196769;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+ }
+ .contanier{
+     width:500px;
+     max-width: 100%;
+     margin: 0 auto;
+ }
+ header{
+     border:3px solid #fff;
+     display: flex;
+     border-radius: 20px;
+     justify-content: space-between;
+     padding: 25px;
+     margin-bottom: 50px;
+ }
+ h1{
+     color:#fff;
+     font-size: 3rem;
+     margin: 0;
+    display: flex;
+    line-height: 0.8;
+    flex-direction: column;
+ }
+ 
+ .selections{
+
+  display: flex;
+  justify-content: center;
+ }
+ .selection{
+    background-color: #196769;
+     border:#196769;
+     outline:none;
+     cursor:pointer;
+     font-size:60px;
+     transition:100ms;
+     
+ }
+ .selection:hover{
+     transform:scale(1.1);
+ }
+ .results{
+     color:#fff;
+    font-size: 40px;
+     margin: 15px;
+    display:grid ; 
+    justify-content: center;
+    grid-template-columns: repeat(2,1fr);
+    justify-items:center ;
+    align-items: center;
+ }
+ .result-score{
+     margin-left: 5px;
+     font-size: 20px;
+     color:#B4D4D3;
+     
+ }
+ .result-selection {
+    opacity: .5;
+  }
+  
+  .result-selection.winner {
+    opacity: 1;
+    font-size: 1.5rem;
+  }
