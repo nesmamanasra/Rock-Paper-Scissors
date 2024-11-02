@@ -2,7 +2,7 @@
 
 # Rock-Paper-Scissors-nesma
 
-# You can see the final Result by clicking the below link:
+# You can see the final result by clicking the below link:
 https://anaal.github.io/Rock-Paper-Scissors/
  
 # Initial game, scribble design
